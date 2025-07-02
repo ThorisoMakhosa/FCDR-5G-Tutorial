@@ -7,4 +7,5 @@ Unzip and open the image with hypervisor of choice either VMWare or VirtualBox, 
 
 For Linux Users: 
 Clone the following repository: git clone https://gitlab.eurecom.fr/oai/trainings/oai-workshops.git .
+
 Install Wireshark: sudo apt install wireshark -y
