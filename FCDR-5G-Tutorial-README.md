@@ -44,8 +44,9 @@ By the end of the tutorial, participants will be able to:
    - Unzip the downloaded `.zip` file.
    - Open the extracted `.vmx` file using VMware.
    - Boot the virtual machine.
-   - Login (Default username/password if provided).
-   - Follow `README` on Desktop or in `/home/user/FCDR-5G-Tutorial/`.
+   - Login details:
+      - Username: fcdr_tutorial
+      - Password: fcdr
 
 ---
 
