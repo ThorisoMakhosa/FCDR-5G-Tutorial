@@ -42,8 +42,7 @@ By the end of the tutorial, participants will be able to:
 
 3. **Steps:**
    - Unzip the downloaded `.zip` file.
-   - Open the extracted `.vmx` file using VMware.
-   - Boot the virtual machine.
+   - Open VMware, click on open a virtual machine and attach the unzipped folder
    - Login details:
       - Username: fcdr_tutorial
       - Password: fcdr
