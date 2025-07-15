@@ -74,6 +74,9 @@ By the end of the tutorial, participants will be able to:
 
    check container status:
    sudo docker compose -f docker-compose.yml ps -a
+
+logs 
+sudo docker logs oai-amf -f
    ```
 
 ---
