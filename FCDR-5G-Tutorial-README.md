@@ -79,18 +79,18 @@ By the end of the tutorial, participants will be able to:
 6. Run the gNB
    ```bash
     Sudo docker compose -f docker-compose-ran.yml up -d oai-gnb
-    AMF logs
+AMF logs
     sudo docker logs oai-amf -f
-    gNB logs
+gNB logs
     sudo docker logs oai-gnb -f
     
 8.   Run the UE
     '''bash
       sudo docker compose -f docker-compose-ran.yml up -d oai-nr-ue
-       AMF logs
+   AMF logs
 10. IP  address allocation check
      '''bash
-      docker exec oai-nr-ue ifconfig
+        docker exec oai-nr-ue ifconfig
     
 12. Traffic test
     '''bash
