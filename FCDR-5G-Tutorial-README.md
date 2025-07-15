@@ -89,11 +89,11 @@ By the end of the tutorial, participants will be able to:
     
 7.  Run the UE
     '''bash
-    sudo docker compose -f docker-compose-ran.yml up -d oai-nr-ue
-    AMF logs
+     sudo docker compose -f docker-compose-ran.yml up -d oai-nr-ue
+     AMF logs
 9. IP  address allocation check
      '''bash
-      docker exec oai-nr-ue ifconfig
+    docker exec oai-nr-ue ifconfig
 10. Traffic test
     '''bash
     docker exec -it oai-nr-ue bash
