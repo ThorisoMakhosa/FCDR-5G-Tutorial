@@ -87,11 +87,10 @@ gNB logs
 8.   Run the UE
     '''bash
       sudo docker compose -f docker-compose-ran.yml up -d oai-nr-ue
-   AMF logs
+AMF logs
 10. IP  address allocation check
      '''bash
         docker exec oai-nr-ue ifconfig
-    
 12. Traffic test
     '''bash
       docker exec -it oai-nr-ue bash
