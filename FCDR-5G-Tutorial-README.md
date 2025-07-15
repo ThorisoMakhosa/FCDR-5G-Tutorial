@@ -75,9 +75,22 @@ By the end of the tutorial, participants will be able to:
    check container status:
    sudo docker compose -f docker-compose.yml ps -a
 
-logs 
-sudo docker logs oai-amf -f
-   ```
+'''logs 
+   sudo docker logs oai-amf -f
+   ```Run the gNB
+    Sudo docker compose -f docker-compose-ran.yml up -d oai-gnb
+   '''AMF logs
+      sudo docker logs oai-amf -f
+   '''gNB logs
+      sudo docker logs oai-gnb -f
+   ''' Run the UE
+      sudo docker compose -f docker-compose-ran.yml up -d oai-nr-ue
+   ''' AMF logs
+   ''' IP address allocation check
+      docker exec oai-nr-ue ifconfig
+   ''' Traffic test
+      docker exec -it oai-nr-ue bash
+      ping -I oaitun_ue1 8.8.8.8 -c10
 
 ---
 
