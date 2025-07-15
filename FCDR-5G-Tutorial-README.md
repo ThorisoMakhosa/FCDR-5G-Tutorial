@@ -81,10 +81,10 @@ By the end of the tutorial, participants will be able to:
    
 6. Run the gNB
    ```bash
-    Sudo docker compose -f docker-compose-ran.yml up -d oai-gnb
-AMF logs
+    sudo docker compose -f docker-compose-ran.yml up -d oai-gnb
+    AMF logs
     sudo docker logs oai-amf -f
-gNB logs
+    gNB logs
     sudo docker logs oai-gnb -f
     
 7.  Run the UE
@@ -96,8 +96,8 @@ gNB logs
       docker exec oai-nr-ue ifconfig
 10. Traffic test
     '''bash
-     docker exec -it oai-nr-ue bash
-     ping -I oaitun_ue1 8.8.8.8 -c10
+    docker exec -it oai-nr-ue bash
+    ping -I oaitun_ue1 8.8.8.8 -c10
     
 
 ---
