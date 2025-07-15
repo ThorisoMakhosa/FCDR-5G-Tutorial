@@ -70,8 +70,10 @@ By the end of the tutorial, participants will be able to:
 4. **Run the Docker-based 5G Network**:
    ```bash
    cd oai-workshops/cn/
-   docker-compose -f docker-compose.yml up -d mysql
-    docker-compose -f docker-compose.yml up -d
+   sudo docker-compose -f docker-compose.yml up -d
+
+   check container status:
+   sudo docker compose -f docker-compose.yml ps -a
    ```
 
 ---
