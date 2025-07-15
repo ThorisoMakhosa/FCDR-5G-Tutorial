@@ -87,7 +87,7 @@ AMF logs
 gNB logs
     sudo docker logs oai-gnb -f
     
-7.   Run the UE
+7.  Run the UE
     '''bash
     sudo docker compose -f docker-compose-ran.yml up -d oai-nr-ue
 AMF logs
